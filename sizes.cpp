@@ -1,9 +1,4 @@
 #include <iostream>
-#include <stdlib.h>
-//#include <unistd.h>
-#include <time.h>
-#include <dos.h>
-#include <string>
 using namespace std;
 
 int main()
