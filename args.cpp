@@ -5,6 +5,7 @@ int main(int argc, char const *argv[])
 {
 	cout << "Argc value is " << argc << endl;
 
+	cout << "Argument array is " << *argv << endl;
 	cout << "Argument array pointer is " << argv << endl;
 
 	for (int i = 0; i < sizeof(*argv) - 1; ++i)
