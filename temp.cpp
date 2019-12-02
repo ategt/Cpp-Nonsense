@@ -1,11 +1,11 @@
 #include <iostream>
-using namespace std;
-//namespace std
 
-	// float convertToFahrenheit(float temp);
-	float convertToCelsius(float fahrenheit);
+namespace std
+{
+	float convertToCelsius(float);
+	float convertToFahrenheit(float);
 
-	int main()
+	int run()
 	{
 		float temperatureFahrenheit, temperatureCelsius;
 
@@ -21,17 +21,15 @@ using namespace std;
 		return 0;
 	}
 
+	float convertToFahrenheit(float celsius) {
+		return 0;
+	}
+
 	float convertToCelsius(float fahrenheit) {
 		return ((fahrenheit - 32) * 5 ) / 9;
 	}
-	// float convertToFahrenheit(int celsius) {
-	// 	return 0;
-	// }
+}
 
-
-// {
-// }
-
-// int main(){
-// 	return std::main();
-// }
+int main(){
+	return std::run();
+}
