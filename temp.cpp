@@ -18,11 +18,24 @@ namespace std
 
 		cout << temperatureCelsius << endl;
 
+		cout << "\nHere's the temperature in Fahrenheit: ";
+
+		cout << convertToFahrenheit(temperatureCelsius) << endl;
+
+		cout << endl;
+		cout << "Performing self check..." << endl;
+
+		if ( (int) convertToFahrenheit(temperatureCelsius) == (int) temperatureFahrenheit ) {
+			cout << "Self passed." << endl;
+		} else {
+			cout << "Self Failed!!!" << endl;
+		}
+
 		return 0;
 	}
 
 	float convertToFahrenheit(float celsius) {
-		return 0;
+		return ((celsius * 9) / 5 ) + 32;
 	}
 
 	float convertToCelsius(float fahrenheit) {
