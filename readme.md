@@ -1,4 +1,4 @@
-# C++ Reminiscings
+# C++ Reminisce
 
 ### Quickstart
 
